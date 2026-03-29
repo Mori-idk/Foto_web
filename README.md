@@ -47,5 +47,5 @@ In the spirit of modern web development, this project utilized:
 * **AI Coding Assistance:** Prompts were used to understand and implement advanced CSS Grid layouts, `:target` logic for hidden containers, and `:hover` transitions.
 * **Open Source Knowledge:** Layout structures and responsive techniques were inspired by educational tutorials on CSS Flexbox, Grid, and animated website design.
 
-###Link
+### Link
 * (https://mori-idk.github.io/Foto_web/)
