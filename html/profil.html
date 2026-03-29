@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Kartwod_Photoo</title>
+        <link rel="stylesheet" href="../style.css"/>
+        <link rel="icon" href="../img/favicon.ico"/>
+    </head>
+
+    <body id="home">
+        <header>
+            <nav class="navi">
+                <a href="liczba.html">Posty</a>
+                <a href="users.html">Użytkownicy </a>
+                <a href="stats.html">Statystyki </a>
+                <a href="../html/logowanie.html">Wyloguj się </a>
+            </nav>
+        </header>
+        <h1>Mój profil</h1>
+        <div class="Logowanie">
+            <div class="formatki">
+                <h2><strong>Moje Dane</strong></h2>
+                <img src="../img/prof.jpg" alt="ilustracja zdjęcia profilowego">
+                <div class="it">
+                <p>
+                    <label for="rolap">Rola</label>
+                    <input type="text" name="rola" id="rolap" value="Administrator" readonly>
+                </p>
+                <p>
+                    <label for="imiep">Imię</label>
+                    <input type="text" name="imie" id="imiep" value="Jan" readonly>
+                </p>
+                <p>
+                    <label for="nazwiskop">Nazwisko</label>
+                    <input type="text" name="nazwisko" id="nazwiskop" value="Kowalski" readonly>
+                </p>
+                <p>
+                    <label for="emailp">E-mail</label>
+                    <input type="text" name="email" id="emailp" value="jankowalski@gmail.com" readonly>
+                </p>
+                <p>
+                    <label for="tele_id">Telefon</label>
+                    <input type="tel" name="telefon" id="tele_id" value="356 873 344" readonly>
+                </p>
+                <p>
+                    <label for="notatkap">Notatka Bio </label>
+                    <textarea name="notatka" id="notatkap" readonly>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic atque inventore esse id explicabo reprehenderit autem voluptas? Iste libero praesentium ex iusto alias id ipsum?</textarea>
+                </p>
+                </div>
+            </div>
+
+        
+        
+        <div class="formatki">
+            <h2><strong>Edycja Danych</strong></h2>
+            <p>
+                <label for="imiee_id">Imię</label>
+                <input type="text" name="imie" id="imiee_id">
+            </p>
+            <p>
+                <label for="nazwiskoo_id">Nazwisko</label>
+                <input type="text" name="nazwisko" id="nazwiskoo_id">
+            </p>
+            <p>
+                <label for="emaile_id">E-mail</label>
+                <input type="email" name="email" id="emaile_id">
+            </p>
+            <p>
+                <label for="telef_id">Telefon</label>
+                <input type="tel" name="telefon" id="telef_id">
+            </p>
+            <p>
+                <label for="nota_id">Notatka bio</label>
+                <textarea name="notatka" id="nota_id"></textarea>
+            </p>
+            <p>
+                <label for="zdj_id">Wybierz Zdjęcie</label>
+                <input class="plik" type="file" name="zdjecie" id="zdj_id">
+            </p>
+            <p>
+                <button class="but" type="submit" >Zapisz zmiany</button>  <a class="wyczysc" href="profil.html">Wyczyść</a>                
+            </p>
+        </div>
+
+    </div>
+
+        <footer class="back">
+            <p>
+                &copy; Kartwod_Photoo &nbsp;
+            </p>
+        </footer>
+    </body>
+</html>

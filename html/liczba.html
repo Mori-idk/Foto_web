@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Kartwod_Photoo</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../img/favicon.ico"/>
+  </head>
+
+  <body id="home">
+    <header>
+      <nav class="navi">
+        <a href="users.html">Użytkownicy</a>
+        <a href="profil.html">Mój profil</a>
+        <a href="stats.html">Statystyki</a>
+        <a href="../html/logowanie.html">Wyloguj się </a>
+      </nav>
+    </header>
+
+    <h3><strong>Lista postów</strong></h3>
+
+    <div class="editpost">
+      <table class="postyy">
+        <tr>
+          <th>zdjęcie</th>
+          <th>tytuł</th>
+          <th>data</th>
+          <th>akcja</th>
+        </tr>
+        <tr>
+          <td><img src="../img/CANON.jpg" alt="CANON EOS R10a"/></td>
+          <td>Aparat bezlusterkowy CANON</td>
+          <td>05.01.2026</td>
+          <td>
+            <a href="#10" class="czytaj">Edytuj</a>
+            <a href="#" class="czytaj">Usuń</a>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../img/Obiektyw.jpg" alt="Obiektyw SONY FE 12-24 mm"/></td>
+          <td>Obiektyw SONY FE 12-24 mm </td>
+          <td>05.01.2026</td>
+          <td>
+            <a href="#10" class="czytaj">Edytuj</a>
+            <a href="#" class="czytaj">Usuń</a>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../img/instax.jpg" alt="Aparat FUJIFILM Instax Mini 12 Niebieski"/></td>
+          <td>Aparat FUJIFILM Instax Mini 12 Niebieski</td>
+          <td>05.01.2026</td>
+          <td>
+            <a href="#10" class="czytaj">Edytuj</a>
+            <a href="#" class="czytaj">Usuń</a>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="../img/sony.jpg" alt="Aparat bezlusterkowy SONY Alpha A6700"/></td>
+          <td>Aparat bezlusterkowy SONY Alpha A6700 </td>
+          <td>05.01.2026</td>
+          <td>
+            <a href="#10" class="czytaj">Edytuj</a>
+            <a href="#" class="czytaj">Usuń</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="10" class="wiecej">
+      <div class="czyt">
+        <div class="formatki">
+          <p>
+            <label for="tytul_id">Tytuł</label>
+            <input type="text" name="tytul" id="tytul_id" />
+          </p>
+          <p>
+            <label for="data_id">Data</label>
+            <input type="date" name="data" id="data_id" />
+          </p>
+          <p>
+            <label for="tresc_id">Treść</label>
+            <textarea name="tresc" id="tresc_id"></textarea>
+          </p>
+          <p>
+            <label for="zdjj_id">Wybierz Zdjęcie</label>
+            <input class="plik" type="file" name="zdjecie" id="zdjj_id" />
+          </p>
+          <div class="pad">
+            <p><a href="#" class="zamknij1">Zapisz</a></p>
+            <p><a href="#" class="zamknij1">Anuluj</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Kartwod_Photoo</title>
+        <link rel="stylesheet" href="../style.css"/>
+        <link rel="icon" href="../img/favicon.ico"/>
+    </head>
+
+    <body id="home">
+        <header>
+            <nav class="navi">
+                <a href="liczba.html">Posty</a>
+                <a href="profil.html">Mój profil</a>
+                <a href="stats.html">Statystyki </a>
+                <a href="../html/logowanie.html">Wyloguj się</a>
+
+            </nav>
+        </header>
+
+        <h3><strong>Lista Użytkowników</strong></h3>
+        <div class="tabelki">
+            <table class="tabelka">
+                <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+                <th>Nr_Telefonu</th>
+                <th>Rola</th>
+                <th>Status</th>
+                <th>Edycja</th>
+            </tr>
+                <tr>
+                    <td>Jan</td>
+                    <td>Kowalski</td>
+                    <td>jankowalski@gmail.com</td>
+                    <td>356 873 344</td>
+                    <td>Aktywny</td>
+                    <td>Administrator</td>
+                    <td><a href="#6" class="czytaj"><strong>Edytuj</strong></a></td>
+                </tr>
+                <tr>
+                    <td>Anna</td>
+                    <td>Coś</td>
+                    <td>annacos@wp.pl</td>
+                    <td>563 653 829</td>
+                    <td> Aktywny</td>
+                    <td>User</td>
+                    <td><a href="#5" class="czytaj"><strong>Edytuj</strong></a></td>
+                    
+                    
+                </tr>
+
+                <tr>
+                    <td>Iza</td>
+                    <td>Zmatiza</td>
+                    <td>izazmatiza@onet.pl</td>
+                    <td>647 829 289</td>
+                    <td>Zablokowany</td>
+                    <td>User</td>
+                    <td><a href="#7" class="czytaj"><strong>Edytuj</strong></a></td>
+                </tr>
+                <tr>
+                    <td>Bożydar</td>
+                    <td>Juzik</td>
+                    <td>bozydarjuzik@wp.pl</td>
+                    <td>930 382 390</td>
+                    <td>Aktywny</td>
+                    <td>Moderator</td>
+                    <td><a href="#8" class="czytaj"><strong>Edytuj</strong></a></td>
+                </tr>
+                <tr>
+                    <td>Tomasz</td>
+                    <td>Banan</td>
+                    <td>tomaszbanan@gmail.com</td>
+                    <td>874 920 390</td>
+                    <td>Aktywny</td>
+                    <td>Fotograf</td>
+                    <td><a href="#9" class="czytaj"><strong>Edytuj</strong></a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="5" class="wiecej">
+                        <div class="czyt"> 
+
+                            <h3><strong>Edycja Danych</strong></h3>
+                                  <table>
+                                    <tr>
+                                    <th>Imię</th>
+                                    <th>Nazwisko</th>
+                                    <th>Email</th>
+                                    <th>Nr_Telefonu</th>
+                                    <th>Rola</th>
+                                    <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Anna</td>
+                                        <td>Coś</td>
+                                        <td>annacos@wp.pl</td>
+                                        <td>563 653 829</td>
+                                        <td><select name="aktiv" class="akt_id">
+                                                <option value="Aktywny" selected>Aktywny</option>
+                                                <option value="Zablokowany">Zablokowany</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="rolaa" class="akt_id">
+                                                <option value="User" selected>User</option>
+                                                <option value="Admin">Admin</option>
+                                                <option value="Moderator">Moderator</option>
+                                                <option value="Fotograf">Fotograf</option>
+                                            </select>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="imie" id="imie5"></td>
+                                        <td><input type="text" name="nazwisko" id="nazwisko5"></td>
+                                        <td><input type="email" name="email" id="email5"></td>
+                                        <td><input type="tel" name="telefon" id="telefon5"></td>
+                                        <td></td>
+                                        <td></td>
+
+                                    </tr>
+                                  </table>
+                            
+                            <a href="#" class="zamknij">Zapisz</a>
+                        </div>
+        </div>
+
+
+        <div id="6" class="wiecej">
+                        <div class="czyt"> 
+                            <h3><strong>Edycja Danych</strong></h3>
+
+                                  <table>
+                                    <tr>
+                                        <th>Imię</th>
+                                        <th>Nazwisko</th>
+                                        <th>Email</th>
+                                        <th>Nr_Telefonu</th>
+                                        <th>Rola</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Jan</td>
+                                        <td>Kowalski</td>
+                                        <td>jankowalski@gmail.com</td>
+                                        <td>356 873 344</td>
+                                        <td><select name="aktiv" class="akt_id">
+                                                <option value="Aktywny" selected>Aktywny</option>
+                                                <option value="Zablokowany">Zablokowany</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="rolaa" class="akt_id">
+                                                <option value="User" >User</option>
+                                                <option value="Admin" selected>Admin</option>
+                                                <option value="Moderator">Moderator</option>
+                                                <option value="Fotograf" >Fotograf</option>
+                                            </select>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="imie" id="imie6"></td>
+                                        <td><input type="text" name="nazwisko" id="nazwisko6"></td>
+                                        <td><input type="email" name="email" id="email6"></td>
+                                        <td><input type="tel" name="telefon" id="telefon6"></td>
+                                        <td></td>
+                                        <td></td>
+
+                                    </tr>
+                                  </table>
+                            
+                            <a href="#" class="zamknij">Zapisz</a>
+                        </div>
+        </div>
+        <div id="7" class="wiecej">
+                        <div class="czyt"> 
+                             <h3><strong>Edycja Danych</strong></h3>
+                           
+                                  <table>
+                                    <tr>
+                                    <th>Imię</th>
+                                    <th>Nazwisko</th>
+                                    <th>Email</th>
+                                    <th>Nr_Telefonu</th>
+                                    <th>Rola</th>
+                                    <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Iza</td>
+                                        <td>Zmatiza</td>
+                                        <td>izazmatiza@onet.pl</td>
+                                        <td>647 829 289</td>
+                                        <td><select name="aktiv" class="akt_id">
+                                                <option value="Aktywny">Aktywny</option>
+                                                <option value="Zablokowany" selected>Zablokowany</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="rolaa" class="akt_id">
+                                                <option value="User" selected>User</option>
+                                                <option value="Admin">Admin</option>
+                                                <option value="Moderator">Moderator</option>
+                                                <option value="Fotograf" >Fotograf</option>
+                                            </select>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="imie" id="imie7"></td>
+                                        <td><input type="text" name="nazwisko" id="nazwisko7"></td>
+                                        <td><input type="email" name="email" id="email7"></td>
+                                        <td><input type="tel" name="telefon" id="telefon7"></td>
+                                        <td></td>
+                                        <td></td>
+
+                                    </tr>
+                                  </table>
+                            
+                            <a href="#" class="zamknij">Zapisz</a>
+                        </div>
+        </div>
+
+        
+        <div id="8" class="wiecej">
+                        <div class="czyt"> 
+                             <h3><strong>Edycja Danych</strong></h3>
+                           
+                                  <table>
+                                    <tr>
+                                    <th>Imię</th>
+                                    <th>Nazwisko</th>
+                                    <th>Email</th>
+                                    <th>Nr_Telefonu</th>
+                                    <th>Rola</th>
+                                    <th>Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Bożydar</td>
+                                        <td>Juzik</td>
+                                        <td>bozydarjuzik@wp.pl</td>
+                                        <td>930 382 390</td>
+                                        <td><select name="aktiv" class="akt_id">
+                                                <option value="Aktywny" selected>Aktywny</option>
+                                                <option value="Zablokowany" >Zablokowany</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="rolaa" class="akt_id">
+                                                <option value="User">User</option>
+                                                <option value="Admin">Admin</option>
+                                                <option value="Moderator" selected>Moderator</option>
+                                                <option value="Fotograf" >Fotograf</option>
+                                            </select>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" name="imie" id="imie8"></td>
+                                        <td><input type="text" name="nazwisko" id="nazwisko8"></td>
+                                        <td><input type="email" name="email" id="email8"></td>
+                                        <td><input type="tel" name="telefon" id="telefon8"></td>
+                                        <td></td>
+                                        <td></td>
+
+                                    </tr>
+                                  </table>
+                            
+                            <a href="#" class="zamknij">Zapisz</a>
+                        </div>
+        </div>
+
+        <div id="9" class="wiecej">
+            <div class="czyt"> 
+            <h3><strong>Edycja Danych</strong></h3>    
+                <table>
+                    <tr>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Email</th>
+                    <th>Nr_Telefonu</th>
+                    <th>Rola</th>
+                    <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Tomsz</td>
+                        <td>Banan</td>
+                        <td>tomaszbanan@gmail.com</td>
+                        <td>874 920 390</td>
+                        <td><select name="aktiv" class="akt_id">
+                            <option value="Aktywny" selected>Aktywny</option>
+                            <option value="Zablokowany" >Zablokowany</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="rolaa" class="akt_id">
+                                <option value="User">User</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Moderator">Moderator</option>
+                                <option value="Fotograf" selected>Fotograf</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="imie" id="imie9"></td>
+                        <td><input type="text" name="nazwisko" id="nazwisko9"></td>
+                        <td><input type="email" name="email" id="email9"></td>
+                        <td><input type="tel" name="telefon" id="telefon9"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                            
+                <a href="#" class="zamknij">Zapisz</a>
+            </div>
+        </div>
+    </body>
+</html>
