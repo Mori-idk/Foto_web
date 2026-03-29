@@ -46,3 +46,6 @@ In the spirit of modern web development, this project utilized:
 * **AI-Generated Assets:** Custom images (cameras, lenses, brand logos) located in the `/img` folder were generated using AI.
 * **AI Coding Assistance:** Prompts were used to understand and implement advanced CSS Grid layouts, `:target` logic for hidden containers, and `:hover` transitions.
 * **Open Source Knowledge:** Layout structures and responsive techniques were inspired by educational tutorials on CSS Flexbox, Grid, and animated website design.
+
+###Link
+https://mori-idk.github.io/Foto_web/
