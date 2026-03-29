@@ -48,4 +48,4 @@ In the spirit of modern web development, this project utilized:
 * **Open Source Knowledge:** Layout structures and responsive techniques were inspired by educational tutorials on CSS Flexbox, Grid, and animated website design.
 
 ###Link
-https://mori-idk.github.io/Foto_web/
+* (https://mori-idk.github.io/Foto_web/)
